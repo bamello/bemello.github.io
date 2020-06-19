@@ -30,6 +30,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 /* link style */
 a:link, a:visited, a:hover, a:active {text-decoration:none;}
 
+.behind{overflow:hidden;display:block;width:0;top:0;height:0;text-indent:-9999px;}
+
 /* SkipToContent */
 #skipToContent{margin:0}
 #skipToContent a {position:absolute;left:-3000%}
